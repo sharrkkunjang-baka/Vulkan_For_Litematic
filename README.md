@@ -2,7 +2,7 @@
 
 前置：[Aetherium 0.1.3（Fabric）](https://www.curseforge.com/minecraft/mc-mods/aetherium-vulkan-shader-mod/files/9545302) 和 [Sodium](https://modrinth.com/mod/sodium/versions?g=26.3) [Litematica 0.29.1](https://modrinth.com/mod/litematica/version/0.29.1) 和它的前置 [MaLiLib 0.30.2](https://modrinth.com/mod/malilib/version/0.30.2)。
 
-游戏所用着色器为Vulan
+游戏所用着色器为Vulkan
 
 ## 已知不支持
 
@@ -22,7 +22,8 @@ python build.py --minecraft-jar /path/to/minecraft-26.3.jar \
   --litematica-jar /path/to/litematica-fabric-26.3-0.29.1.jar \
   --libraries /path/to/.minecraft/libraries
 ```
-
-输出为 `build/Vulkan_For_Litematic.jar`。代码采用 MIT 许可证；璃酱图标不包含在代码许可证内。
-
 </details>
+
+## 多版本兼容
+
+自己vibe coding一下就行了..我主要是自己跟好厚米玩用的 不长期维护
